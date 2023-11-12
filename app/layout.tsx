@@ -26,7 +26,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <NextTopLoader height={2} />
+          <NextTopLoader height={3} />
           <Navbar />
           <main className='mx-auto max-w-maxW px-3 py-2'>
             {children}
