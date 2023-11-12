@@ -12,7 +12,7 @@ const Navbar = () => {
     const pathName = usePathname();
 
     return (
-        <nav className="border-b border-border min-w-full sticky top-0 z-50 backdrop-blur-3xl bg-background/80 ">
+        <nav className="border-b border-border min-w-full relative z-50 backdrop-blur-3xl bg-background/80 ">
             <div className="flex flex-col sm:flex-row sm:items-center justify-between px-3 py-2 max-w-maxW mx-auto gap-1.5">
                 <Link href="/" className="flex items-center gap-3">
                     <Image src={ProfilePic} alt="Prakash Banjade Image" className="rounded-[50%]" height={45} width={45} priority={true} title="Prakash Banjade" />
